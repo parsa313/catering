@@ -271,7 +271,14 @@ letter-spacing: 5px;
 
 text-transform: capitalize;
 font-size: 1.1rem;
+}
 
+@media (max-width:600px){
+  ::placeholder{
+
+    font-size: 0.9rem;
+
+  }
 
 }
 /* input */
