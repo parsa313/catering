@@ -183,6 +183,12 @@ margin-right: 25px;
 font-size: 1.3rem;
 
   }
+
+  @media  screen and (max-width:680px) {
+
+    .content__text{margin-left: 20px;}
+    
+  }
   .content__image{
     display: inline-block;
 width:90%;
@@ -255,6 +261,14 @@ color: rgba(100, 96, 96, 0.856);
 
 margin:0;
 margin-right: 25px;
+}
+
+@media screen and (max-width:680px) {
+  .menu__image{
+    margin-left: 20px;
+    
+  }
+  
 }
 .menu__subject{
 
